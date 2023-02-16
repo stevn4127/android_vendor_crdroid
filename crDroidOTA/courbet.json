@@ -1,0 +1,28 @@
+{
+	"response": [
+		{
+			"maintainer": "Golbinex",
+			"oem": "Xiaomi",
+			"device": "Mi 11 Lite 4G",
+			"filename": "crDroidAndroid-13.0-20230215-courbet-v9.2.zip",
+			"download": "https://sourceforge.net/projects/crdroid/files/courbet/9.x/crDroidAndroid-13.0-20230215-courbet-v9.2.zip/download",
+			"timestamp": 1676458640,
+			"md5": "a543e41317baf4a5aeb187cf18f84b6e",
+			"sha256": "69e47dd428e88e387514f70ac3ebcdabe361c4fd09f07f072b2004d0576c5a68",
+			"size": 1263870828,
+			"version": "9.2",
+			"buildtype": "Monthly",
+			"forum": "https://forum.xda-developers.com/t/rom-13-official-crdroid-9-0.4519899/",
+			"gapps": "https://nikgapps.com/",
+			"firmware": "https://xiaomifirmwareupdater.com/firmware/courbet/",
+			"modem": "",
+			"bootloader": "",
+			"recovery": "https://sourceforge.net/projects/twrp-youngherna/files/TWRP-3.7.0-courbet-ygherna.img/download",
+			"paypal": "",
+			"telegram": "https://t.me/crdroid_mi_11_lite_4g",
+			"dt": "https://github.com/crdroidandroid/android_device_xiaomi_courbet/",
+			"common-dt": "https://github.com/crdroidandroid/android_device_xiaomi_sm6150-common/tree/13.0-courbet",
+			"kernel": "https://github.com/crdroidandroid/android_kernel_xiaomi_courbet"
+		}
+	]
+}

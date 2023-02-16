@@ -1,0 +1,28 @@
+{
+	"response": [
+		{
+			"maintainer": "Simone Esposito (DarkJoker360)",
+			"oem": "OnePlus",
+			"device": "OnePlus 7T Pro 5G Mclaren",
+			"filename": "crDroidAndroid-13.0-20230114-hotdogg-v9.1.zip",
+			"download": "https://sourceforge.net/projects/crdroid/files/hotdogg/9.x/crDroidAndroid-13.0-20230114-hotdogg-v9.1.zip/download",
+			"timestamp": 1673690171,
+			"md5": "57ca6a7aa430dbed2f601a0b3d5da0c6",
+			"sha256": "b01afb3b6dbbb4b33618531a3e3631c50fc35f01b01b819fe96f93c2fbbb51ee",
+			"size": 1118717284,
+			"version": "9.1",
+			"buildtype": "Monthly",
+			"forum": "https://forum.xda-developers.com/t/rom-official-hotdogg-13-0-crdroidandroid-v9-x.4505549/",
+			"gapps": "https://sourceforge.net/projects/nikgapps/",
+			"firmware": "",
+			"modem": "",
+			"bootloader": "",
+			"recovery": "https://sourceforge.net/projects/crdroid/files/hotdogg/9.x/recovery/",
+			"paypal": "https://www.paypal.com/paypalme/Martiriggiano",
+			"telegram": "https://t.me/op7tpro5g",
+			"dt": "https://github.com/crdroidandroid/android_device_oneplus_hotdogg",
+			"common-dt": "https://github.com/crdroidandroid/android_device_oneplus_sm8150-common/tree/13.0-hotdogg",
+			"kernel": "https://github.com/crdroidandroid/android_kernel_oneplus_sm8150/tree/13.0-hotdogg"
+		}
+	]
+}

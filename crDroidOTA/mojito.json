@@ -1,0 +1,28 @@
+{
+	"response": [
+		{
+			"maintainer": "Anush Madathumkara (Anush02198)",
+			"oem": "Redmi",
+			"device": "Redmi Note 10",
+			"filename": "crDroidAndroid-13.0-20230122-mojito-v9.1.zip",
+			"download": "https://sourceforge.net/projects/crdroid/files/mojito/9.x/crDroidAndroid-13.0-20230122-mojito-v9.1.zip/download",
+			"timestamp": 1674381599,
+			"md5": "1b6130370a015e83a67a8f6742290eb1",
+			"sha256": "56038b791a5393f0ef6041185503c6e7ec4fb2179d42d7be256d56bb5d6615e6",
+			"size": 1206586057,
+			"version": "9.1",
+			"buildtype": "STABLE",
+			"forum": "https://forum.xda-developers.com/t/rom-13-official-crdroid-android-v9-0-mojito-sunny.4388469/",
+			"gapps": "https://downloads.codefi.re/jdcteam/javelinanddart/gapps",
+			"firmware": "",
+			"modem": "",
+			"bootloader": "",
+			"recovery": "https://eu.dl.twrp.me/mojito/",
+			"paypal": "https://paypal.me/anush02198",
+			"telegram": "https://t.me/jarn10g",
+			"dt": "https://github.com/crdroidandroid/android_device_xiaomi_mojito/tree/13.0",
+			"common-dt": "https://github.com/crdroidandroid/android_device_xiaomi_sm6150-common/tree/13.0-mojito",
+			"kernel": "https://github.com/xiaomi-sdm678/android_kernel_xiaomi_mojito"
+		}
+	]
+}

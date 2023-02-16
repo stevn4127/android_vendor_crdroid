@@ -1,0 +1,286 @@
+Highlights & Device Specific Changes:
+Build type: Weekly
+Device: OnePlus 7T Pro (hotdog)
+Device maintainer: ShEV (ShevT)
+
+===== 20230214 =====
+* !!! Vendor firmware update required (firmware_OP7TPro_HD1911_11.F.20_A12) !!!
+* ASB 20230205
+* Update proprietary blobs from OOS 11.F.20/11.H.36
+* crDroid 9.2
+* Blur improvements
+* Added Enable/Disable blur on Display settings
+* Aperture: Make some settings camera id specific
+* Aperture: QR highlight
+* Jelly: Fix infinite immersive mode prompt
+* Some other small changes
+* Updated translations
+
+===== 20230212 =====
+* Kernel 4.14.305
+* Kernel: Fix slow charge while screen is on
+* Device: Auto-brightness fixes
+* Fixed camera 60fps video recording
+* Fixed CTS/Play Integrity pass
+* Fixed dialer call log crashing in some cases
+* Fixed some other small UI issues
+* Fixed toast app icon display inconsistency for system apps
+* Fixed theming when adjusting status bar clock text size
+* Fixed expanded QS clock color
+* Fixed multiple QS background scrim issues
+* Fixed flooding with network requests
+* Fixed disabling power menu completely on secured locscreen
+* Updated icons from lawnicons
+* Added Nothing font NOS 1.5
+* Smart charging: decrease minimum charging limit to 40%
+* Aperture: some UI updates
+* Launcher: Fix crashing in some specific use cases
+* Launcher: Optional music search toggle for QSB
+* Launcher: Make music search icon colorful
+* Launcher: Add light theme support for translucent hotseat background
+* Launcher: Add customization to set hotseat background opacity
+* Launcher: Match hotseat background with app drawer scrim
+* Launcher: fixed some issue with some icons packs
+* Launcher: Allow widgets to have 1 row as minimum size
+* Introduce customizable navbar and hardware buttons
+* Added option to configure navbar radius
+* Added option to make navigation pill thinner
+* Small performance and stability improvements
+* Fixed permissions for ThemePicker
+* Added blur to power menu
+* Updates to bionic and arm-optimized-routines
+* Some other small changes
+* Updated translations
+
+===== 20230128 =====
+* Settings: Fix gestures saving parameters
+* ThemePicker: Fix default permissions
+* Device: audio: Enable post process for voice_call
+* Device: dolby: Tune values from OP9Pro
+* Fix long swipe gesture
+* Updated translations
+* Some more minor fixes
+
+===== 20230126 =====
+* Kernel 4.14.304
+* Device: Switch back to ext4 fs from erofs. Google switched back to ext4.
+* Device: audio: Add "Built-In (Back) Mic" to "primary input" sink
+* Device: Switch Bluetooth Audio to AIDL
+* crdroid: Add missing button actions
+* crdroid: Allow setting bottom keyguard shortcuts
+* crdroid: Disable lockscreen album art by default
+* Launcher3: Add background chip for memory info view
+* Launcher3: Refine dock and all apps UI
+* Launcher3: Hotseat: Fix normal QSB width
+* Launcher3: Redesign recents app buttons
+* Launcher3: Apply corner radius setting for app searchbar
+* Launcher3: Match app searchbar theme with dock searchbar
+* Launcher3: Adjust icons on dock search bar
+* Launcher3: Improve paddings for all apps search bar
+* Launcher3: Multiple work profile badge colors for Launcher3
+* SystemUI: Don't force small clock when media isn't allowed on keyguard
+* Make per-app work with multi audio focus
+* Fix stuck screen from display change timeout
+* DeskClock: Lots of changes...
+* Aperture: Lots of changes...
+* Updated translations
+* Some more fixes
+* Some other small changes
+
+===== 20230114 =====
+* Added a setting to change the clock font on the lock screen
+* Add support for allowing/disallowing apps on cellular, VPN and WiFi networks
+* Fixed an issue with displaying fast charging on the lock screen
+* Added support for GMS switch
+* Dolby: Switch to Moto dolby
+* Bluetooth fixes
+* Launcher3: InfoBottomSheet: Fix NPE with AppTransitionManager
+* Fixed Youtube application when moving to PIP animation
+* Fix black screen issue due to wallpaper decoding exceptions
+* Fixed wallpaper selector
+* Small changes to status bar icons
+* Small refinements to crDroidSettings
+* Removed camera & flashlight on lockscreen (Might come back later)
+* DisplaySettings: font size in 5% steps from 80% to 130%
+* Some other changes here and there
+* Updated translations
+
+===== 20230110 =====
+* !!! Vendor firmware update required (firmware_OP7TPro_HD1911_11.F.18_A12) !!!
+* ASB 20230105
+* Update proprietary blobs from OOS 11.F.18/11.H.32
+* Minor bluetooth fixes
+* Use user fonts for Material UI themes
+* Override system fonts with user-selected overlays
+* Added WiFi standard icon toggle (crdroid > statusbar)
+* Added camera & flashlight on lockscreen
+* VolumePanel: Various fixes and improvements for volume panel
+* VolumePanel: Add long click for expand icon
+* Aperture: Keep screen on while in Camera
+* Aperture: Ask for GPS permission only on the first launch
+* Aperture: Force portrait when launched from locked keyguard
+* Aperture: Overlap lockscreen only when the app is launched from it
+* Launcher3: fixed RTL layout issues
+* Launcher3: Add toggle to show/hide app drawer search bar
+* Launcher3: Do not skip search animation for app icons
+* Launcher3: Fixed search issues
+* Fixed some battery styles issue
+* Some other small changes here and there
+* Updated translations
+
+===== 20221230 =====
+* Launcher3: Place memory info below action buttons
+* Launcher3: Fix taskbar crash without QSB
+* DeskClock: Fix adding alarms after deletion
+* DeskClock: Fix collapsing animation
+* DeskClock: Make expand and collapse animations faster
+* DeskClock: Redesign Timer input
+* DeskClock: Add double-zero button
+* DeskClock: Fix clock style change
+* DeskClock: Redesign ClockFragment
+* Addons: Update icons from lawnicons
+* Settings: Allow editing all APNs and APN types
+* Settings: Fix restore default apn dialog sometimes not dismissed
+* Device: audio: Use AOSP USB v2 audio HAL
+* Device: audio: update audio_io_policy for VoIP
+* Device: audio: add missing mixer path
+* Device: Fixes display of recent apps tiles
+* Device: Adapt status bar height to layout their UI
+* Device: Decrease status bar padding start/end
+* Device: Fix TOF sensor support
+* SystemUI: Fix VPN icon failed reloading after disabling
+* SystemUI: Improvements for dynamic VoLTE & VoWiFi icons
+* SystemUI: Align QS header with status bar
+* SystemUI: old style mobile indicator layout fixes
+* Whitelist DocumentsUIGoogle for Parallel space
+* Blacklist OPlusExtras for Parallel space
+* Fix glitchy charging info on AOD
+* Updated translations
+* Some more fixes
+
+===== 20221226 =====
+* Aperture updates
+* Launcher: Fixed hotseat bar space only if QSB enabled
+* Launcher: Added toggle to view memory info in launcher recents
+* Addeded screenshot tile
+* Addeded Sound Search tile
+* Fixed custom statusbar logo customizations
+* Fixed issues with center clock
+* Fixed statusbar start side content layout
+* Fixed statusbar clock bg chip layout
+* Fixed statusbar end side content layout
+* Make center clock follow paddingTop
+* Updates to arm-optimized-routines and bionic
+* Added back custom style notification clear all button
+* Hide OOS clear all if reticker enabled
+* Fixed DocumentsUI not listing internal storage
+* Switched notification background to monet on heads up
+* Small change to battery style icon fill
+* Fix SeLinux denials
+* Various performance optimizations
+* Add missing proprietary libs
+* Switch to skiagl
+* Switch BtAudio to AIDL
+* Update audio policy configuration
+* Updated translations
+* Some more fixes
+
+===== 20221219 =====
+* Kernel 4.14.302
+* Updated to December security patches (android-13.0.0_r16)
+* Added QPR1
+* Disable Smart Pixels on UDFPS
+* Initial support for Parallel Space
+* Added reset battery stats possibility
+* Repalced ripple animation with Fluent Design-inspired animation
+* SystemUI: Match lockscreen clock font with system
+* Removed smart pulldown settings
+* Replaced default wallpaper
+* Added different phone ringtone setting for Multi SIM device
+* Updates to lmkd
+* GameSpace: Update takeScreenshot API in ScreenUtils
+* Lots of Aperture changes and fixes
+* Slightly optimize less boring apps check for heads up
+* Restricted Networking Mode fixes
+* Some more fixes here and there (this is a complete rewrite of crDroid base)
+* Updated translations
+
+===== 20221130 =====
+* Switch to erofs
+    WARNING!!!
+    Before installing this update, you must manually update Recovery.
+    Otherwise, you will get an error at the end of the update.
+* Kernel 4.14.300
+* Kernel: Many performance and battery related improvements
+* Added refresh rate tile
+* Added Power menu styles
+* Calculator: Material you
+* Settings: Add toggle for connectivity check
+* Fixed issue with DeskClock not playing alarm sound if increasing sound option is used
+* Updated clock widget to Monet colors
+* Added option to toggle netflix devices spoofing
+* Fix WifiInjector instance exception if WifiService disabled
+* Fix NullPointerException when starting app with old ApplicationInfo
+* Fixed black screen after DOZE
+* Reworked some PixelPropUtils props
+* Launcher: Update icons from lawnicons
+* Launcher: Fix spacing and colors related to All Apps header
+* Launcher: Disable all caps from Personal and Work tabs
+* Use framework FOD dimming
+* Some other fixes here and there
+* Updated translations
+
+===== 20221118 =====
+* OPExtras: Added Dolby Atmos
+* Use QCOM implementation for audio effects
+* Added: support for Google Dialer Call recording
+* Fix showing device controls on lock screen
+* Launcher3: Update icons
+* Themes: Fix swatch colors not showing up
+* Added vibration patterns from OOS
+* Allow choosing a custom vibration pattern
+* Custom vibration pattern per notification channel
+* Allow toggling floating rotation button
+* Updated translations
+* Many Fixes and Improvements
+
+===== 20221114 =====
+* Updated to November security patches (android-13.0.0_r13)
+* Kernel 4.14.299
+* Added One Plus Extras
+* Added Sensor block per-package switch
+* Allow switch min/peak refresh rate
+* Added face unlock support
+* Added option to disable clipboard overlay
+* Make all corners rounded on QS footer
+* Launcher: added some app icons for themed icons
+* Optimized performance and stability
+* Added wireguard support
+* Chromium Webview 107.0.5304.105
+* Optimized art
+* Updated translations
+* Many Fixes and Improvements
+
+===== 20221107 =====
+* Added: Allow disabling clipboard overlay
+* Added: Hidden network support for hotspot
+* Added: Connected devices manager for hotspot
+* Added: More DNS providers to private DNS
+* Added: Long press to copy wifi password
+* Added: Show more APK details on App info screen
+* Launcher: some more small changes here and there as well as fixes
+* Enable split notification shade in landscape
+* Some more improvements to hotspot
+* Fixed possible SIM issues with non-dual sim variants
+* Removed notification clear all icon/bg styles (useless)
+* Added wireguard support
+* Reworked bootanimation
+* Rebased Updater
+* Updater: corrected changelog URL
+* Updated Aperture (Camera)
+* Updated libcore
+* Updated translations
+* Many Fixes and Improvements
+
+===== 20221102 =====
+* initial release

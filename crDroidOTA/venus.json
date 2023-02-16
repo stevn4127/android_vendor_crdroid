@@ -1,0 +1,28 @@
+{
+	"response": [
+		{
+			"maintainer": "Flower Sea",
+			"oem": "Xiaomi",
+			"device": "Xiaomi 11",
+			"filename": "crDroidAndroid-13.0-20221227-venus-v9.0.zip",
+			"download": "https://sourceforge.net/projects/crdroid/files/venus/9.x/crDroidAndroid-13.0-20221227-venus-v9.0.zip/download",
+			"timestamp": 1672075587,
+			"md5": "e2bc7ee926db12f04c984286a851eb1b",
+			"sha256": "a7f09360d120908897a642047043167f5cb757c7bd17ba3366f24298f8330a6e",
+			"size": 1589040061,
+			"version": "9.0",
+			"buildtype": "Monthly",
+			"forum": "https://forum.xda-developers.com/t/rom-android-13-mi-11-crdroid-v9-0-official.4512005/",
+			"gapps": "https://androidfilehost.com/?fid=14871746926876840643",
+			"firmware": "",
+			"modem": "",
+			"bootloader": "",
+			"recovery": "https://sourceforge.net/projects/crdroid/files/venus/9.x/recovery/",
+			"paypal": "https://github.com/FlowerSea0208/Donate/blob/a89cdd8f883adde9c57bb0579b4dab2b0d36383e/README.md",
+			"telegram": "https://t.me/mi11dev",
+			"dt": "https://github.com/crdroidandroid/android_device_xiaomi_venus.git",
+			"common-dt": "https://github.com/crdroidandroid/android_device_xiaomi_sm8350-common.git",
+			"kernel": "https://github.com/crdroidandroid/android_kernel_xiaomi_venus"
+		}
+	]
+}

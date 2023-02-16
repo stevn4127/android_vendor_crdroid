@@ -1,0 +1,28 @@
+{
+	"response": [
+		{
+			"maintainer": "Akash Kakkar (akashk07)",
+			"oem": "Poco",
+			"device": "Poco F4",
+			"filename": "crDroidAndroid-13.0-20230209-munch-v9.1.zip",
+			"download": "https://sourceforge.net/projects/crdroid/files/munch/9.x/crDroidAndroid-13.0-20230209-munch-v9.1.zip/download",
+			"timestamp": 1675963730,
+			"md5": "be1b0e82990af66515e41bed31227c8f",
+			"sha256": "f899ae08f1c4e0461073129eb8f300fff8dd9b13c407c6e5e003403e17dfeb59",
+			"size": 1495676233,
+			"version": "9.1",
+			"buildtype": "Stable",
+			"forum": "https://forum.xda-developers.com/t/4492155",
+			"gapps": "https://wiki.lineageos.org/gapps",
+			"firmware": "",
+			"modem": "",
+			"bootloader": "",
+			"recovery": "https://orangefox.download/device/munch",
+			"paypal": "https://paypal.me/akash07",
+			"telegram": "https://t.me/drippingdrops",
+			"dt": "https://github.com/crdroidandroid/android_device_xiaomi_munch",
+			"common-dt": "https://github.com/crdroidandroid/android_device_xiaomi_sm8250-common/tree/13.0-munch",
+			"kernel": "https://github.com/crdroidandroid/android_kernel_xiaomi_sm8250-munch"
+		}
+	]
+}

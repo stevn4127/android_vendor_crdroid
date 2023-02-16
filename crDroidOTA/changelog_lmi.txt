@@ -1,0 +1,259 @@
+Highlights & Device Specific Changes:
+Build type: Monthly
+Device: POCO F2 Pro
+Device maintainer: raystef66
+Required firmware: V13.0.3.0.SJKMIXM
+
+====================
+     15-02-2023
+====================
+
+* updated to sec. patch level 2023.02.05
+* crDroid 9.2
+* kernel upstreamed to 4.19.272-perf+
+* QS: locale Tile to toggle the primary default language
+* fix screenshot sharing failure after the recent task is opened
+* synced with latest sources
+* updated translations
+* some other fixes and improvements
+
+====================
+     10-02-2023
+====================
+
+* PixelPropsUtils: make CTS/Play Integrity pass again
+* option to decrease minimum charging limit
+* added Nothing font NOS 1.5
+* Launcher3: Make music search icon colorful
+* Launcher3: Optional music search toggle for QSB
+* Launcher3: Add light theme support for translucent hotseat background
+* Aperture: update
+* synced with latest sources
+* updated translations
+* some other fixes and improvements
+
+====================
+     04-02-2023
+====================
+
+* SystemUI: fix duplicated creation of KeyguardStatusBarViewController 
+* SystemUI: Also blur power sub-menus
+* SystemUI: Blur the power menu
+* SystemUI: Fix multiple QS background scrim issues
+* SystemUI: Do not show dismiss button on headsup
+* SystemUI: Fix expanded QS clock color 
+* SystemUI: Re-evaluate theme when adjusting status bar clock text size
+* SystemUI: Allow Configuring Navbar Radius
+* SystemUI: Allow making Navigation Pill thinner
+* NetworkTraffic: Handle flooding network requests 
+* don't warn for displays with no input device matching
+* fix NPE when finishing remote animation
+* fix disabling power menu completely on secured locscreen 
+* fix Camera: Skip stream size check for whitelisted apps
+* Launcher: Allow widgets to have 1 row as minimum size
+* Launcher: fixed some issue with some icons packs
+* add strings for gesture navbar radius 
+* fixed permissions for ThemePicker
+* Aperture: some UI updates
+* updates to bionic and arm-optimized-routines
+* updated Chromium Webview to 109.0.5414.118
+* synced with latest sources
+* updated translations
+* some other fixes and improvements
+
+====================
+     27-01-2023
+====================
+
+* kernel upstreamed to 4.19.271-perf+
+* Launcher3: Add background chip for memory info view
+* Launcher3: Refine dock and all apps UI
+* Launcher3: Hotseat: Fix normal QSB width
+* Launcher3: Do not add more space on hotseat with taskbar
+* Launcher3: Redesign recents app buttons
+* Launcher3: Apply corner radius setting for app searchbar
+* Launcher3: Match app searchbar theme with dock searchbar
+* Launcher3: Clean up AssistantIconView
+* Launcher3: Adjust icons on dock search bar
+* Launcher3: Improve paddings for all apps search bar
+* Launcher3: Multiple work profile badge colors for Launcher3
+* Launcher3: Move memory info to bottom by default
+* Launcher3: InfoBottomSheet: Fix NPE with AppTransitionManager
+* Updated some default wallpapers
+* fixed some mobial signal UI issues
+* ParallelSpace: Add Android Auto to block list
+* make per-app work with multi audio focus
+* fixed small clock when media isn't allowed on keyguard
+* GameSpace: Remove dim layer from the panel view
+* fixed edge long swipe gesture 
+* disabled lockscreen album art by default
+* updates and fixes for PixelPropsUtils
+* updated some DeskClock stuff
+* add support for Lockscreen clock fonts
+* add support for GMS switch for ParallelSpace
+* fxed Youtube application when moving to PIP animation
+* fix black screen issue due to wallpaper decoding exceptions
+* fixed wallpaper selector
+* Styles: Use user fonts for Material UI themes
+* override system fonts with user-selected overlays
+* small changes to VolumePanel
+* small changes to status bar icons
+* small refinements to crDroidSettings
+* updated bionic
+* updated Aperture
+* synced with latest sources
+* updated translations
+* some other fixes and improvements
+
+====================
+     10-01-2023
+====================
+
+* updated to sec. patch level 2023.01.05
+* use user fonts for Material UI themes
+* override system fonts with user-selected overlays
+* added WiFi standard icon toggle (crdroid > statusbar)
+* added camera & flashlight on lockscreen
+* VolumePanel: various fixes and improvements for volume panel
+* VolumePanel: add long click for expand icon
+* Aperture: keep screen on while in Camera
+* Aperture: ask for GPS permission only on the first launch
+* Aperture: force portrait when launched from locked keyguard
+* Aperture: overlap lockscreen only when the app is launched from it
+* Launcher3: fixed RTL layout issues
+* Launcher3: add toggle to show/hide app drawer search bar
+* Launcher3: do not skip search animation for app icons
+* Launcher3: fixed search issues
+* fixed some battery styles issue
+* synced with latest sources
+* updated translations
+* some other fixes and improvements
+
+====================
+     28-12-2022
+====================
+
+* improvements for dynamic VoLTE & VoWiFi icons
+* fix VPN icon failed reloading after disabling
+* fetch bluetooth battery level from any device
+* launcher: Add config to place memory info below action buttons
+* launcher: Add toggle for memory info view
+* launcher: Display memory info above overview actions
+* launcher: Introduce memory info in overview
+* launcher: Add kill action to app shortcuts popup
+* launcher :Calculate hotseat bar space only if QSB enabled
+* package installer: show current and new version on apk installation
+* add Google Sound Search tile
+* systemUI: Hide oos clear all if reticker enable
+* systemUI: fixup! Hide OOS clear all if panel visible because Headsup
+* battery: make fill path rounded
+* systemUI: Switch notification background to monet on heads up
+* make center clock follow paddingTop
+* systemUI: Fix up status bar end side content layout
+* systemUI: Fix up statusbar clock bg chip layout
+* systemUI: Fix up status bar start side content layout
+* fix issues with center clock
+* fixup! Custom statusbar logo customizations
+* added screenshot tile
+* aperture updates
+* synced with latest sources
+* updated translations
+* some other fixes and improvements
+
+====================
+     17-12-2022
+====================
+
+* updated to sec. patch level 2022.12.05
+* kernel upstreamed to 4.19.269-perf+
+* added parallel space
+* undo (for now) power menu styles
+* added option to reset battery stats
+* incoming caller number parsed correctly (VoLTE/VoWiFi)
+* fixed FOD working when Smart Pixels enabled
+* synced with latest sources
+* updated translations
+* some other fixes and improvements
+
+====================
+     26-11-2022
+====================
+
+* kernel upstreamed to 4.19.265-perf+
+* update graphics and display blobs to LA.UM.9.12.r1-14400-SMxx50.0
+* added power menu styles 
+* reworked some PixelPropUtils props
+* allow toggling netflix spoofing
+* implement firewall status bar indicator 
+* fix black screen after DOZE
+* fixed issue with DeskClock not playing alarm sound if increasing sound option is used
+- Updated clock widget to Monet colors
+* synced with latest sources
+* updated translations
+* some other fixes and improvements
+
+====================
+     19-11-2022
+====================
+
+* allow toggling floating rotation button
+* do not show camera indicator for Face Unlock service
+* custom vibration pattern per notification channel 
+* allow choosing a custom vibration pattern
+* add vibration patterns from OOS
+* make sensor block package list configurable
+* sensor block per-package switch
+* launcher3: Update icons
+* updated Chromium Webview to 107.0.5304.105
+* updated arm-optimized-routines
+* optimized art
+* synced with latest sources
+* updated translations
+* some other fixes and improvements
+
+====================
+     12-11-2022
+====================
+
+* updated to sec. patch level 2022.11.05
+* kernel upstreamed to 4.19.265-perf+
+* added Face Unlock
+* re-aligned statusbar start/end padding
+* re-aligned statusbar top margin
+* lowered horizontal burnin shift
+* synced with latest sources
+* updated translations
+* some other fixes and improvements
+
+====================
+     09-11-2022
+====================
+
+* added aptX support
+* added exFAT support for USB-OTG
+* fixed screen_off FOD while on AOD
+* added ANT+ service
+* allow disabling clipboard overlay
+* synced with latest sources
+* updated translations
+* some other fixes and improvements
+
+====================
+     05-11-2022
+====================
+
+* kernel upstreamed to 4.19.264-perf+
+* added support for Zoom Ed. on stock cam/gcam
+* added support for call recording
+* added more DNS providers
+* hotspot: added hidden SSID preference
+* hotspot: added more bands to band preference
+* synced with latest sources
+* updated translations
+* some other fixes and improvements
+
+====================
+     29-10-2022
+====================
+
+* initial cr9 release

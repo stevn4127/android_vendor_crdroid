@@ -1,0 +1,28 @@
+{
+	"response": [
+		{
+			"maintainer": "Hasan Okarci (frazerecho)",
+			"oem": "OnePlus",
+			"device": "OnePlus 7T",
+			"filename": "crDroidAndroid-13.0-20230111-hotdogb-v9.1.zip",
+			"download": "https://sourceforge.net/projects/crdroid/files/hotdogb/9.x/crDroidAndroid-13.0-20230111-hotdogb-v9.1.zip/download",
+			"timestamp": 1673430215,
+			"md5": "ed022239fc1603a15346c1b456e63835",
+			"sha256": "47d0a17b57b1ed9d6eada6ee73e9350d6fca14d520634b789d51ff0b15045735",
+			"size": 1126564553,
+			"version": "9.1",
+			"buildtype": "Monthly",
+			"forum": "https://forum.xda-developers.com/t/rom-13-official-crdroid-android-v9-0-hotdogb.4467671/",
+			"gapps": "https://downloads.codefi.re/jdcteam/javelinanddart/gapps",
+			"firmware": "",
+			"modem": "",
+			"bootloader": "",
+			"recovery": "https://sourceforge.net/projects/crdroid/files/hotdogb/9.x/recovery/",
+			"paypal": "https://crdroid.net/donate",
+			"telegram": "https://t.me/crdroid_oneplus7t",
+			"dt": "https://github.com/crdroidandroid/android_device_oneplus_hotdogb",
+			"common-dt": "https://github.com/crdroidandroid/android_device_oneplus_sm8150-common",
+			"kernel": "https://github.com/crdroidandroid/android_kernel_oneplus_sm8150"
+		}
+	]
+}

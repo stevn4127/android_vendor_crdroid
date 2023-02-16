@@ -1,0 +1,28 @@
+{
+	"response": [
+		{
+			"maintainer": "Santiago García Mantiñán (manty)",
+			"oem": "Xiaomi",
+			"device": "Mi Mix 2",
+			"filename": "crDroidAndroid-13.0-20230214-chiron-v9.2.zip",
+			"download": "https://sourceforge.net/projects/crdroid/files/chiron/9.x/crDroidAndroid-13.0-20230214-chiron-v9.2.zip/download",
+			"timestamp": 1676369226,
+			"md5": "de33fa4f5680ba1c746ad0ee3bfdd8bd",
+			"sha256": "a3dd513b72033ba97de9e09ec95c16d89f377c9d89617aaa8a2abb89d83ec097",
+			"size": 945546003,
+			"version": "9.2",
+			"buildtype": "Monthly",
+			"forum": "https://forum.xda-developers.com/t/rom-chiron-official-crdroid-xiaomi-mi-mix-2.4532199",
+			"gapps": "https://androidfilehost.com/?w=files&flid=322935",
+			"firmware": "",
+			"modem": "",
+			"bootloader": "",
+			"recovery": "https://sourceforge.net/projects/crdroid/files/chiron/recovery.img",
+			"paypal": "",
+			"telegram": "",
+			"dt": "https://github.com/crdroidandroid/android_device_xiaomi_chiron",
+			"common-dt": "https://github.com/crdroidandroid/android_device_xiaomi_msm8998-common/",
+			"kernel": "https://github.com/crdroidandroid/android_kernel_xiaomi_msm8998"
+		}
+	]
+}

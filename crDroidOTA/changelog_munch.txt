@@ -1,0 +1,140 @@
+Highlights & Device Specific Changes:
+Build type: Weekly
+Device: Xiaomi Poco F4/Redmi K 40 S (munch)
+Device maintainer: Akash Kakkar (@akashk07)
+===== 09 Feb, 2023 =====
+- Safetynet fixed
+- Switched to NoKernel
+- Battery and performance optimizations
+- Many bugfixes
+- Upstreamed with source
+
+===== 29 January, 2023 =====
+- Removing KernelSU because it is still causing the battery drain. although not as much as before, but still it is huge.
+
+===== 28 January, 2023 =====
+- KernelSU is back after some ironing out and polishing
+- Added some reserved space in system partition for flashing the additional mods
+- Disabled volume leveler for Dolby
+- Disabled audio boost
+
+===== 27 January, 2023 =====
+- Moto Dolby
+- Deep sleep fixes
+- Kernel updates
+- Source updates
+
+===== 23 January, 2023 =====
+- Included IH8SN for safetynet passing
+- Battery improvements
+- A small, hidden surprise for everyone
+
+===== 22 January, 2023 =====
+- Dropped Dolby again but it is a temporary removal for stability.
+- Some minor fixes and improvements.
+
+
+===== 21 January, 2023 =====
+- Fixed status bar padding issues
+- Fixed wifi display
+- Updated the graphic drivers
+- Added Moto Dolby (It is experimental for now. may not work properly)
+- Upstreamed source and kernel
+
+===== 18 January, 2023 =====
+- Huge improvements related to Wifi, Battery and performance.
+- Switched to AOSP Wifi Display
+- Audio optimizations
+- Fix display animation while AOD on/off 
+- Updates for Wifi 5 GHZ band
+- Fixes for video calls
+- Huge optimizations and under the hood improvements
+- Kernel updates
+- Source updates
+
+===== 09 January, 2023 =====
+- January security patch (Android 13-R20)
+- StatusBar and UI fixes
+- SystemUI crashes fixed
+- RIP RealKing kernel
+- Nexus kernel is back
+
+===== 04 January, 2023 =====
+- Removed the LZ4 compression for ramdisk
+- Hence fixed the regression where TWRP or oOrangefox recoveries were not booting on last build
+- Other misc fixes and improvements.
+- RealKing kernel 8.4
+- Upstreamed with source
+
+===== 02 January, 2023 =====
+- Built with RealKing kernel on users' demand
+- Removed MiuiCamera and Dolbi
+- Upstreamed the source
+- UI updates
+- Removed bundled firmware in order to reduce the size
+
+===== 30 December, 2022 =====
+- UI fixes
+- Upstreamed
+
+===== 25 December, 2022 =====
+- Upstreamed with ROM and Kernel source.
+- Misc changes
+
+===== 25 December, 2022 =====
+- Upstreamed with latest source and hence plenty of fixes
+- Kernel updates
+
+===== 21 December, 2022 =====
+- UI and kernel updates
+
+===== 18 December, 2022 =====
+- December 2022 security update
+- Switch to clang 16.0.2 for kernel compilation
+- Added Parallel Space support (crdroid > misc)
+- Camera enhancements
+- Kernel enhancements
+- Added power menu styles (crDroid Settings -> Buttons -> Power menu -> Power menu style)
+- Added support for Google Dialer Call recording
+- Changed internet connectivity check method
+- Added toggle for internet connectivity check via Google under network & internet settings
+- Fixed network leaks with split-tunnel VPNs
+- Restricted Networking Mode fixes
+- Added firewall statusbar icon with toggle
+- Launcher3: Fix spacing and colors related to All Apps header
+- Launcher3: Disable all caps from Personal and Work tabs
+- Tweaked RAM and storage usage with some apps
+- Fix potential memory leaks
+- Fixed possble crashes with formatting SD card and pressing back button
+- About: Make kernel version clickable
+- About: Added deep sleep info
+- Updated calendar colors
+- Updated translations
+
+===== 05 December, 2022 =====
+- Compiled with Nexus kernel now
+- Built with Clang 16.0.1
+- Fixed audio crackling issues
+- Performance optimizations
+
+===== 30 November, 2022 =====
+- Added Dolbi
+- Added MIUI camera
+- Added High Brightness Mode (HBM)
+- Inlined with n0 Kernel
+- Many performance and battery related improvements
+- Fixed tons of Sepolicy denials
+
+===== 21 November, 2022 =====
+- Fixed Google Recorder
+- Wifi, performance and battery improvements
+
+===== 16 November, 2022 =====
+- Fixed call recording
+- Updated to November security patches (android-13.0.0_r13)
+- Added face unlock support
+- Added option to disable clipboard overlay
+- Optimized performance and stability
+- Optimized art
+- Updated translations
+

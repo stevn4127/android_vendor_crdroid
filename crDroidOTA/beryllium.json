@@ -1,0 +1,28 @@
+{
+	"response": [
+		{
+			"maintainer": "Lup Gabriel (gwolfu)",
+			"oem": "Poco",
+			"device": "Pocophone F1",
+			"filename": "crDroidAndroid-13.0-20230211-beryllium-v9.1.zip",
+			"download": "https://sourceforge.net/projects/crdroid/files/beryllium/9.x/crDroidAndroid-13.0-20230211-beryllium-v9.1.zip/download",
+			"timestamp": 1676104847,
+			"md5": "ec9f9d890108c0b81c161851bb007649",
+			"sha256": "7c5f08c1c6867dfcaaa0ad9d9299f5993bc5f1b488ad357da416c56a251a1296",
+			"size": 1108412458,
+			"version": "9.1",
+			"buildtype": "Weekly",
+			"forum": "https://forum.xda-developers.com/t/4511631",
+			"gapps": "https://sourceforge.net/projects/nikgapps/files/Releases/NikGapps-T/",
+			"firmware": "",
+			"modem": "",
+			"bootloader": "",
+			"recovery": "https://sourceforge.net/projects/crdroid/files/beryllium/9.x/recovery/",
+			"paypal": "https://paypal.me/gwolf2u",
+			"telegram": "https://t.me/crDroidPoco",
+			"dt": "https://github.com/crdroidandroid/android_device_xiaomi_beryllium",
+			"common-dt": "https://github.com/crdroidandroid/android_device_xiaomi_sdm845-common",
+			"kernel": "https://github.com/crdroidandroid/android_kernel_xiaomi_sdm845"
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+  "response": [
+    {
+        "maintainer": "Anar Jabiyev (Jabiyeff)",
+        "oem": "Redmi",
+        "device": "Redmi Note 11",
+        "filename": "crDroidAndroid-13.0-20230111-spes-v9.1.zip",
+        "download": "https://sourceforge.net/projects/crdroid/files/spes/9.x/crDroidAndroid-13.0-20230111-spes-v9.1.zip/download",
+        "timestamp": 1673425077,
+        "md5": "5ac16aabbca1c83cf021020c74147672",
+        "sha256": "f1c87298d23fb902ed65555af025ccfaf263795150f6a5455ca7171beea9a678",
+        "size": 1250840383,
+        "version": "9.1",
+        "buildtype": "Monthly",
+        "forum": "https://forum.xda-developers.com/t/rom-official-12-1-13-0-crdroidandroid-8-x-9-x-spes-spesn.4440747/",
+        "gapps": "",
+        "firmware": "https://xiaomifirmwareupdater.com/firmware/spes/",
+        "modem": "",
+        "bootloader": "",
+        "recovery": "",
+        "paypal": "https://www.patreon.com/jabiyeff",
+        "telegram": "https://t.me/crDroidSpes",
+        "dt": "https://github.com/crdroidandroid/android_device_xiaomi_spes",
+        "common-dt": "",
+        "kernel": ""
+    }
+  ]
+}
+

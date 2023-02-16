@@ -1,0 +1,28 @@
+{
+  "response": [
+    {
+        "maintainer": "raystef66",
+        "oem": "Poco",
+        "device": "Xiaomi POCO F3",
+        "filename": "crDroidAndroid-13.0-20230215-alioth-v9.2.zip",
+        "download": "https://sourceforge.net/projects/crdroid/files/alioth/9.x/crDroidAndroid-13.0-20230215-alioth-v9.2.zip/download",
+        "timestamp": 1676441626,
+        "md5": "dc15113bd16066242efc39a793fa90f0",
+        "sha256": "be9529015471e95dbc7eeb6001f8652c529b9117fe4b1dacafffca94895ebd42",
+        "size": 1250681223,
+        "version": "9.2",
+        "buildtype": "Monthly",
+        "forum": "https://forum.xda-developers.com/t/rom-13-0-official-alioth-aliothin-crdroid-v9-0-29-10-2022.4512033/",
+        "gapps": "https://sourceforge.net/projects/nikgapps/files/Releases/NikGapps-T/08-Sep-2022/",
+        "firmware": "https://xiaomifirmwareupdater.com/firmware/alioth/stable/V13.0.9.0.SKHEUXM/",
+        "modem": "",
+        "bootloader": "",
+        "recovery": "https://dl.akr-developers.com/?file=skkk/TWRP/A12/v6.3_A12/%5BBOOT%5D3.6.2_12-RedmiK40-POCOF3-Mi11X_v6.3_A12-alioth-skkk_a616ae6b.zip",
+        "paypal": "https://paypal.me/raystef66",
+        "telegram": "https://t.me/crdroidf3",
+        "dt": "https://github.com/crdroidandroid/android_device_xiaomi_alioth/tree/13.0",
+        "common-dt": "https://github.com/crdroidandroid/android_device_xiaomi_sm8250-common/tree/13.0-alioth",
+        "kernel": "https://github.com/crdroidandroid/android_kernel_xiaomi_sm8250/tree/13.0-alioth"
+    }
+  ]
+}

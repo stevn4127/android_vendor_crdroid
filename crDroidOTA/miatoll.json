@@ -1,0 +1,28 @@
+{
+	"response": [
+		{
+			"maintainer": "popoASM",
+			"oem": "Redmi",
+			"device": "Redmi Note 9S Series",
+			"filename": "crDroidAndroid-13.0-20230125-miatoll-v9.1.zip",
+			"download": "https://sourceforge.net/projects/crdroid/files/miatoll/9.x/crDroidAndroid-13.0-20230125-miatoll-v9.1.zip/download",
+			"timestamp": 1674636574,
+			"md5": "9024bbd1ce1ac7d997ed57ed3dc16047",
+			"sha256": "1470e2cd88530cac8e23ef313852af3f4cfc249005407fdf523cd2ba42767b79",
+			"size": 1225905486,
+			"version": "9.1",
+			"buildtype": "Monthly",
+			"forum": "https://forum.xda-developers.com/t/monthly-android-13-crdroid-9-0-unofficial-miatoll.4536611/",
+			"gapps": "https://sourceforge.net/projects/nikgapps/files/Releases/NikGapps-T/",
+			"firmware": "",
+			"modem": "",
+			"bootloader": "",
+			"recovery": "https://t.me/PositronKernel/77",
+			"paypal": "https://www.paypal.me/pborborah",
+			"telegram": "https://t.me/miatoll_crdroid",
+			"dt": "https://github.com/crdroidandroid/android_device_xiaomi_miatoll",
+			"common-dt": "",
+			"kernel": "https://github.com/crdroidandroid/android_kernel_xiaomi_sm6250"
+		}
+	]
+}
